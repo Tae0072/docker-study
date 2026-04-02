@@ -1,0 +1,11 @@
+# 매분 hello.sh 실행
+* * * * * /scripts/hello.sh >> /var/log/cron.log 
+
+# 매 5분마다 cleanup.sh 실행
+*/5 * * * * /scripts/cleanup.sh >> /var/log/cron.log 
+
+# 매 10분마다 health.sh 실행
+*/10 * * * * /scripts/health.sh >> /var/log/cron.log 
+
+# 실시간으로 로그가 쌓이는 것을 확인하기에 가장 좋은 명령어
+# tail -f cron.log

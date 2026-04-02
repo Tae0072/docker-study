@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(code --list-extensions)",
+      "WebSearch",
+      "mcp__claude_ai_Notion__notion-search"
+    ]
+  }
+}
